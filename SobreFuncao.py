@@ -26,3 +26,32 @@
 # Para imprimir: print(soma())
 
 #Neste caso o return está retornando o valor da variável para função que foi definida, só que o print só acontecerá neste caso se estiver printando a função.
+
+#Funçao recursiva
+
+#Ainda utilizando a função soma como exemplo:
+
+# def soma(a, b):
+#   c = a + b
+#   return c
+#
+# print(soma(4, 9))
+
+#----> 13
+
+#Aqui definimos que ao se desejar somar números, basta dizer quais são os valores que deseja.
+# Não irá precisar escrever aqueles códigos de soma, ou qualquer outro cálculo, por exemplo se fosse baskara.
+# Bastaria criar a funçao com o cálculo e depois chamar informando os valores de cada variável e terá seu retorno.
+
+#Existe variações possíveis:
+# def soma(a, b, d):
+#   c = a + b + d
+#   if c % 2 == 0:
+#       return "Par" 
+#   else:
+#       return "Ímpar"
+# print(soma(4, 2, 10))
+#
+# --- > Par
+
+#Aqui estamos criando um condicional dentro da funçao, definindo os valores no chamamento da função, para que nos retorne se é par ou impar, conforme está na função.
