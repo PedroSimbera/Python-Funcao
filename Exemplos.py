@@ -8,6 +8,9 @@
 #         return "Maior de idade"
     
 # print(maioridade(int(input("Qual a sua idade: "))))
+# ou
+# idade = int(input("Qual a sua idade: "))
+# print(maioridade(idade))
 
 
 
