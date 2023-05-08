@@ -1,3 +1,3 @@
 # Funções em **Python**
 
-### *Baseado na pós graduação em **Data Science***
+### *Um pouco do conteúdo da pós graduação em **Data Science***
