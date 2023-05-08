@@ -57,3 +57,33 @@
 
 # É interessante, pois não precisa criar a estrutura condicional toda vez que quiser saber se o número/resultado é impar o par, basta chamar a funçaõ com os valores que deseja.
 
+# Função nativa
+# 
+#Em resumo não função que já estão dentro do python, não precisa criar os códigos, pois já estão na versão, basta chamá-las.
+#
+# Funções nativas (built-in functions) em Python são funções pré-definidas na linguagem, disponíveis para serem utilizadas sem a necessidade de importar bibliotecas externas. 
+# Essas funções oferecem funcionalidades básicas, como conversão de tipos de dados, manipulação de strings, operações matemáticas, entrada e saída de dados, entre outras. 
+# Algumas das funções nativas mais comuns em Python incluem print(), input(), len(), str(), int(), float(), range(), sum(), max(), min(), entre outras. 
+# Essas funções são parte integrante da linguagem Python e são amplamente utilizadas em programas Python para realizar diversas tarefas.
+
+
+# Função recursiva
+#
+
+# Trata-se, em suma, de uma função dentro de outra função, note:
+
+# def fatorial (n):
+#   if n == 1:
+#       return 1
+#   return n * fatorial(n - 1)
+#
+# Aqui o código irá realizar uma entrada, que irá diminuir o valor para que chegue ao 1. Fatorial.
+#
+# Após isso basta chamar a função com o valor que deseja fazer o fatorial.
+
+# Resumo:
+#
+# Uma função recursiva em Python é uma função que se chama a si mesma para resolver um problema. 
+# Ela permite a resolução de problemas complexos, dividindo-os em tarefas menores e resolvendo cada uma delas por meio de uma chamada recursiva. 
+# A função recursiva é composta por dois elementos principais: o caso base, que é a condição de parada da recursão, e o caso geral, que é a chamada recursiva que permite a resolução do problema de forma iterativa.
+# É importante ter cuidado ao usar funções recursivas, pois elas podem levar a problemas de desempenho e estouro de pilha de recursão se não forem implementadas corretamente.
