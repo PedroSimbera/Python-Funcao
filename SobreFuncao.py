@@ -27,7 +27,6 @@
 
 #Neste caso o return está retornando o valor da variável para função que foi definida, só que o print só acontecerá neste caso se estiver printando a função.
 
-#Funçao recursiva
 
 #Ainda utilizando a função soma como exemplo:
 
@@ -55,3 +54,6 @@
 # --- > Par
 
 #Aqui estamos criando um condicional dentro da funçao, definindo os valores no chamamento da função, para que nos retorne se é par ou impar, conforme está na função.
+
+# É interessante, pois não precisa criar a estrutura condicional toda vez que quiser saber se o número/resultado é impar o par, basta chamar a funçaõ com os valores que deseja.
+
